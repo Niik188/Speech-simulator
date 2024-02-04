@@ -1,0 +1,48 @@
+body{
+    background-image: url("https://bogatyr.club/uploads/posts/2023-03/1679638222_bogatyr-club-p-prirodnie-istochniki-vodi-foni-krasivo-9.jpg");
+    background-size: cover;
+    background-position-y:center;
+    display: flex;
+    height: 100vh;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.731);
+    border: 5px ridge rgb(0, 0, 0);
+    width: 90%;
+    height: 30%;
+}
+
+.name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+}
+
+.name button{
+    width: 100%;
+    height: 100%;
+    font-size: 80%;
+    background-color: rgb(159, 159, 159);
+    border: 5px ridge rgb(0, 0, 0);
+    transition: 200ms;
+}
+
+.name form{
+    width: 10%;
+    height: 30%;
+}
+
+.name button:hover{
+    background-color: rgb(200, 200, 200);
+    border: 5px dashed rgb(97, 97, 97);
+    cursor: pointer;
+}
+
+.menu p{
+    font-size: 150%;
+    margin: 0;
+}

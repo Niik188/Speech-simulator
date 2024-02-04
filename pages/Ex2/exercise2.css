@@ -1,0 +1,67 @@
+body{
+    background-image: url("https://klike.net/uploads/posts/2022-12/1671684272_2-11.jpg");
+    background-size: cover;
+    background-position-y:center;
+    display: flex;
+    height: 100vh;
+}
+
+.exercise{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.731);
+    border: 5px ridge rgb(0, 0, 0);
+    width: 90%;
+    height: 80%;
+}
+
+.name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 5px dashed black;
+    background-color: rgb(100, 100, 100);
+    width: 99.5%;
+}
+
+#check{
+    width: 20%;
+    height: 40%;
+    margin-left: 2%;
+    font-size: 80%;
+    background-color: rgb(159, 159, 159);
+    border: 5px ridge rgb(0, 0, 0);
+    transition: 200ms;
+}
+
+#check:hover{
+    background-color: rgb(200, 200, 200);
+    border: 5px dashed rgb(97, 97, 97);
+    cursor: pointer;
+}
+
+.name form button{
+    width: 100%;
+    height: 100%;
+    font-size: 80%;
+    background-color: rgb(159, 159, 159);
+    border: 5px ridge rgb(0, 0, 0);
+    transition: 200ms;
+}
+
+.name form{
+    width: 20%;
+    height: 40%;
+    margin-left: 2%;
+}
+
+.name button:hover{
+    background-color: rgb(200, 200, 200);
+    border: 5px dashed rgb(97, 97, 97);
+    cursor: pointer;
+}
+
+.menu p{
+    font-size: 150%;
+    margin: 0;
+}
