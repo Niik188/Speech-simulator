@@ -1,5 +1,5 @@
 body{
-    background-image: url("https://www.fonstola.ru/images/201407/fonstola.ru_147250.jpg");
+    background-image: url("https://spillwords.com/wp-content/uploads/2017/10/DEATH-IS-NO-STRANGER-spillwords.jpg");
     background-size: cover;
     background-position-y:center;
     display: flex;
@@ -14,29 +14,6 @@ body{
     background-color: rgba(255, 255, 255, 0.731);
     border: 5px ridge rgb(0, 0, 0);
     width: 90%;
-    height: 80%;
-}
-
-.table{
-    display: flex;
-    flex-direction: row;
-    height: 40%;
-}
-
-.table div{
-    border: 5px dashed black;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.True{
-    width: 50%;
-    height: 80%;
-}
-
-.False{
-    width: 50%;
     height: 80%;
 }
 
@@ -76,7 +53,7 @@ body{
 
 .name form{
     width: 20%;
-    height: 30%;
+    height: 40%;
     margin-left: 2%;
 }
 
@@ -89,8 +66,4 @@ body{
 .menu p{
     font-size: 150%;
     margin: 0;
-}
-
-#offerDiv h1{
-    cursor: pointer;
 }

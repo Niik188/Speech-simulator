@@ -1,5 +1,5 @@
 body{
-    background-image: url("https://www.fonstola.ru/images/201407/fonstola.ru_147250.jpg");
+    background-image: url("https://wp-s.ru/wallpapers/9/12/427482818112041/derevyannyj-spusk-k-moryu.jpg");
     background-size: cover;
     background-position-y:center;
     display: flex;
@@ -13,31 +13,32 @@ body{
     flex-direction: column;
     background-color: rgba(255, 255, 255, 0.731);
     border: 5px ridge rgb(0, 0, 0);
-    width: 90%;
+    width: 99%;
     height: 80%;
 }
 
-.table{
-    display: flex;
-    flex-direction: row;
-    height: 40%;
+#text{
+    margin: 0.1%;
+    font-size: 250%;
 }
 
-.table div{
-    border: 5px dashed black;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+.text{
+    font-size: 60%;
+    background-color: rgba(255, 255, 255, 0.363);
+    border: 1px solid rgb(135, 135, 135);
+    transition: 500ms;
 }
 
-.True{
-    width: 50%;
-    height: 80%;
+.text div{
+    font-size: 50%;
 }
 
-.False{
-    width: 50%;
-    height: 80%;
+.text:hover{
+    background-color: rgba(255, 255, 255);
+}
+
+.text:active{
+    background-color: rgba(5, 255, 47, 0.176);
 }
 
 .name{
@@ -91,6 +92,6 @@ body{
     margin: 0;
 }
 
-#offerDiv h1{
-    cursor: pointer;
+.wordsDiv{
+    display: none;
 }

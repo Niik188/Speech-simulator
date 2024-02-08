@@ -1,8 +1,10 @@
 body{
-    background-image: url("https://wp-s.ru/wallpapers/9/12/427482818112041/derevyannyj-spusk-k-moryu.jpg");
+    background-image: url("https://live.staticflickr.com/6043/6318961240_43bea40f95_b.jpg");
     background-size: cover;
     background-position-y:center;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 100vh;
 }
 
@@ -12,6 +14,29 @@ body{
     background-color: rgba(255, 255, 255, 0.731);
     border: 5px ridge rgb(0, 0, 0);
     width: 90%;
+    height: 80%;
+}
+
+.table{
+    display: flex;
+    flex-direction: row;
+    height: 40%;
+}
+
+.table div{
+    border: 5px dashed black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.True{
+    width: 50%;
+    height: 80%;
+}
+
+.False{
+    width: 50%;
     height: 80%;
 }
 
@@ -51,7 +76,7 @@ body{
 
 .name form{
     width: 20%;
-    height: 40%;
+    height: 30%;
     margin-left: 2%;
 }
 
@@ -64,4 +89,8 @@ body{
 .menu p{
     font-size: 150%;
     margin: 0;
+}
+
+#offerDiv h1{
+    cursor: pointer;
 }
