@@ -14,13 +14,12 @@ body{
     background-color: rgba(255, 255, 255, 0.731);
     border: 5px ridge rgb(0, 0, 0);
     width: 90%;
-    height: 80%;
+    height: 95%;
 }
 
 .table{
     display: flex;
     flex-direction: row;
-    height: 40%;
 }
 
 .table div{
@@ -32,12 +31,28 @@ body{
 
 .True{
     width: 50%;
-    height: 80%;
+    padding: 1%;
+}
+
+.True1{
+    width: 50%;
+}
+
+.True h1{
+    font-size: 150%;
 }
 
 .False{
     width: 50%;
-    height: 80%;
+    padding: 1%;
+}
+
+.False1{
+    width: 50%;
+}
+
+.False h1{
+    font-size: 150%;
 }
 
 .name{
@@ -91,6 +106,17 @@ body{
     margin: 0;
 }
 
+#offerDiv{
+    width: 50%;
+    height: 50%;
+}
+
 #offerDiv h1{
     cursor: pointer;
+    font-size: 130%;
+}
+
+.offers{
+    font-size: 150%;
+    margin: 2%;
 }

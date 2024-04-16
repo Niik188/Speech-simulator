@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./exercise.css">
+    <link rel="stylesheet" href="../../main.css">
+    <title>Интерактивное пособие - Упражнение 2</title>
+</head>
+<body oncontextmenu="false;">
+    <div class="exercise">
+        <div class="name">
+            <h1 class="noselect">Упражнение 2: Распределите предложения по группам в зависимости от правильности написания однородных членов предложения</h1>
+            <button id="check" class="noselect">Проверить и продолжить</button>
+            <form action="../../index.html"><button id="backMain" class="noselect">Назад к основной странице</button></form>
+        </div>
+    
+        <div class="table">
+            <div class="True1">
+                <h2 class="noselect">Правильно</h2>
+            </div>
+            <div class="False1">
+                <h2 class="noselect">Ошибочно</h2>
+            </div>
+        </div>
+
+        <div class="table">
+            <div class="True drop" ondragover="onDragOver(event);" ondrop="onDrop(event);">
+            </div>
+            <div class="False drop" ondragover="onDragOver(event);" ondrop="onDrop(event);">
+            </div>
+        </div>
+
+        <div id="offerDiv" class="drop" ondragover="onDragOver(event);" ondrop="onDrop(event);">
+            <h1 class="noselect offers" id="1" draggable="true" ondragstart="onDragStart(event);">1. Важно знать не только правила правописания слов, но и применять их в процессе письма.</h1>
+            <h1 class="noselect offers" id="2" draggable="true" ondragstart="onDragStart(event);">2. Владельцы собак любят своих питомцев и гордятся ими.</h1>
+            <h1 class="noselect offers" id="3" draggable="true" ondragstart="onDragStart(event);">3. Тигры встречаются не только в странах Африки, а также на территории Дальнего Востока.</h1>
+            <h1 class="noselect offers" id="4" draggable="true" ondragstart="onDragStart(event);">4. Важно не только знать правила правописания слов, но и применять их в процессе письма.</h1>
+            <h1 class="noselect offers" id="5" draggable="true" ondragstart="onDragStart(event);">5. Сентябрь был на редкость холодным, и трава пожухла в садах, парках, лесных полянах.</h1>
+            <h1 class="noselect offers" id="6" draggable="true" ondragstart="onDragStart(event);">6. Дедушка был хорошим поваром, а также опытным кондитером.</h1>
+            <h1 class="noselect offers" id="7" draggable="true" ondragstart="onDragStart(event);">7. Тигры встречаются не только в странах Африки, но и на территории Дальнего Востока. </h1>
+            <h1 class="noselect offers" id="8" draggable="true" ondragstart="onDragStart(event);">8. Дедушка был не только хорошим поваром, а также опытным кондитером.</h1>
+            <h1 class="noselect offers" id="9" draggable="true" ondragstart="onDragStart(event);">9. Сентябрь был на редкость холодным, и трава пожухла в садах, парках, на лесных полянах.</h1>
+            <h1 class="noselect offers" id="10" draggable="true" ondragstart="onDragStart(event);">10. Владельцы собак любят и гордятся своими питомцами.</h1>
+        </div>
+    </div>
+    <script src="./exercise.js"></script>
+</body>
+</html>

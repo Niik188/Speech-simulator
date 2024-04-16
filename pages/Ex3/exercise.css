@@ -1,5 +1,5 @@
 body{
-    background-image: url("https://wp-s.ru/wallpapers/9/12/427482818112041/derevyannyj-spusk-k-moryu.jpg");
+    background-image: url("https://live.staticflickr.com/6043/6318961240_43bea40f95_b.jpg");
     background-size: cover;
     background-position-y:center;
     display: flex;
@@ -14,27 +14,45 @@ body{
     background-color: rgba(255, 255, 255, 0.731);
     border: 5px ridge rgb(0, 0, 0);
     width: 90%;
-    height: 80%;
+    height: 95%;
 }
 
-#text{
-    margin: 2%;
-    font-size: 250%;
+.table{
+    display: flex;
+    flex-direction: row;
 }
 
-.text{
-    font-size: 60%;
-    background-color: rgba(255, 255, 255, 0.363);
-    border: 1px solid rgb(135, 135, 135);
-    transition: 500ms;
+.table div{
+    border: 5px dashed black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
-.text:hover{
-    background-color: rgba(255, 255, 255);
+.True{
+    width: 50%;
+    padding: 1%;
 }
 
-.text:active{
-    background-color: rgba(5, 255, 47, 0.176);
+.True1{
+    width: 50%;
+}
+
+.True h1{
+    font-size: 150%;
+}
+
+.False{
+    width: 50%;
+    padding: 1%;
+}
+
+.False1{
+    width: 50%;
+}
+
+.False h1{
+    font-size: 150%;
 }
 
 .name{
@@ -88,6 +106,17 @@ body{
     margin: 0;
 }
 
-.wordsDiv{
-    display: none;
+#offerDiv{
+    width: 50%;
+    height: 50%;
+}
+
+#offerDiv h1{
+    cursor: pointer;
+    font-size: 130%;
+}
+
+.offers{
+    font-size: 150%;
+    margin: 2%;
 }

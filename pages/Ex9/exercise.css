@@ -1,0 +1,100 @@
+body{
+    background-image: url("https://dasart.ru/userdata/image/40/f0/40f0f88bb3df311ee3687cfb60e267a8.jpeg");
+    background-size: cover;
+    background-position-y:center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.exercise{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.731);
+    border: 5px ridge rgb(0, 0, 0);
+    width: 99%;
+}
+
+#text{
+    margin: 4% 0;
+    font-size: 240%;
+}
+
+.text{
+    font-size: 60%;
+    background-color: rgba(255, 255, 255, 0.363);
+    border: 1px solid rgb(135, 135, 135);
+    transition: 500ms;
+}
+
+.text div{
+    font-size: 50%;
+}
+
+.text:hover{
+    background-color: rgba(255, 255, 255);
+}
+
+.text:active{
+    background-color: rgba(0, 0, 0, 0.176);
+}
+
+.name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 5px dashed black;
+    background-color: rgb(100, 100, 100);
+    width: 99.5%;
+}
+
+#check{
+    width: 20%;
+    height: 40%;
+    margin-left: 2%;
+    font-size: 80%;
+    background-color: rgb(159, 159, 159);
+    border: 5px ridge rgb(0, 0, 0);
+    transition: 200ms;
+}
+
+#check:hover{
+    background-color: rgb(200, 200, 200);
+    border: 5px dashed rgb(97, 97, 97);
+    cursor: pointer;
+}
+
+.name form button{
+    width: 100%;
+    height: 100%;
+    font-size: 80%;
+    background-color: rgb(159, 159, 159);
+    border: 5px ridge rgb(0, 0, 0);
+    transition: 200ms;
+}
+
+.name form{
+    width: 20%;
+    height: 30%;
+    margin-left: 2%;
+}
+
+.name button:hover{
+    background-color: rgb(200, 200, 200);
+    border: 5px dashed rgb(97, 97, 97);
+    cursor: pointer;
+}
+
+.menu p{
+    font-size: 150%;
+    margin: 0;
+}
+
+.wordsDiv{
+    display: none;
+}
+
+.wordsAll{
+    background-color: rgb(168, 168, 168);
+}

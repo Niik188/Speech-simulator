@@ -12,8 +12,7 @@ body{
     flex-direction: column;
     background-color: rgba(255, 255, 255, 0.731);
     border: 5px ridge rgb(0, 0, 0);
-    width: 40%;
-    height: 40%;
+    width: 70%;
     margin: auto auto;
 }
 
@@ -38,6 +37,54 @@ body{
     transition: 200ms;
 }
 
+#resumeDiv{
+    background-color: rgba(93, 93, 93, 0.489);
+    height: 20%;
+}
+
+#nameDiv{
+    background-color: rgba(93, 93, 93, 0.489);
+    width: 90%;
+    height: 20%;
+    margin: 2%;
+}
+
+#nameDiv input{
+    margin: 2%;
+    width: 90%;
+    height: 50%;
+    font-size: 150%;
+    transition: 200ms;
+}
+
+#nameDiv button{
+    margin: 2%;
+    width: 50%;
+    height: 80%;
+    font-size: 150%;
+    background-color: rgb(159, 159, 159);
+    border: 5px ridge rgb(0, 0, 0);
+    transition: 200ms;
+}
+
+#resumeDiv button{
+    margin: 2%;
+    width: 80%;
+    height: 80%;
+    font-size: 150%;
+    background-color: rgb(159, 159, 159);
+    border: 5px ridge rgb(0, 0, 0);
+    transition: 200ms;
+}
+
+#resumeDiv input{
+    margin: 2%;
+    width: 20%;
+    height: 80%;
+    font-size: 150%;
+    transition: 200ms;
+}
+
 .menu form button{
     width: 100%;
     height: 100%;
@@ -51,4 +98,11 @@ body{
     background-color: rgb(200, 200, 200);
     border: 5px dashed rgb(97, 97, 97);
     cursor: pointer;
+}
+
+.menu div{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 50%;
 }

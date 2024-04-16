@@ -1,5 +1,5 @@
 body{
-    background-image: url("https://wp-s.ru/wallpapers/9/12/427482818112041/derevyannyj-spusk-k-moryu.jpg");
+    background-image: url("https://pravosnova.ru/wp-content/uploads/2021/11/Depositphotos_26586893_XL-1-scaled.jpg");
     background-size: cover;
     background-position-y:center;
     display: flex;
@@ -14,27 +14,16 @@ body{
     background-color: rgba(255, 255, 255, 0.731);
     border: 5px ridge rgb(0, 0, 0);
     width: 90%;
-    height: 80%;
 }
 
-#text{
-    margin: 2%;
-    font-size: 250%;
+.elements{
+    margin-left: 4%;
 }
 
-.text{
-    font-size: 60%;
-    background-color: rgba(255, 255, 255, 0.363);
-    border: 1px solid rgb(135, 135, 135);
-    transition: 500ms;
-}
-
-.text:hover{
-    background-color: rgba(255, 255, 255);
-}
-
-.text:active{
-    background-color: rgba(5, 255, 47, 0.176);
+.elements2{
+    margin-left: 6%;
+    width: 80%;
+    background-color: rgba(111, 111, 111, 0.392);
 }
 
 .name{
@@ -73,7 +62,7 @@ body{
 
 .name form{
     width: 20%;
-    height: 30%;
+    height: 40%;
     margin-left: 2%;
 }
 
@@ -83,11 +72,3 @@ body{
     cursor: pointer;
 }
 
-.menu p{
-    font-size: 150%;
-    margin: 0;
-}
-
-.wordsDiv{
-    display: none;
-}

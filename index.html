@@ -6,14 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./main.css">
-    <title>Название - Основная страница</title>
+    <title>Интерактивное пособие - Основная страница</title>
 </head>
 <body>
     <div class="menu">
-        <h1 class="noselect">Здравствуй, ученик😄! Добро пожаловать в тренажёр, где ты научишься не делать ошибки в своей речи🗣️.</h1>
+        <h1 class="noselect">Здравствуй, ученик😄! Добро пожаловать на интерактивное пособие, где ты научишься не делать ошибки в своей речи🗣️.</h1>
         <button id="start_button" class="noselect">Начать тренажёр</button>
-        <button id="resume_button" disabled="true" class="noselect">Продолжить</button>
-        <form action="./pages/SourcePage/source.html"><button class="noselect">Источники</button></form>
+        <div id="resumeDiv">
+            <button id="resume_button" disabled="true" class="noselect">Продолжить
+            </button><input type="number" disabled="true" value="1" min="1" max="1" id="choice">
+        </div>
+        <form action="./pages/Result/result.html"><button class="noselect" id="resultButton" disabled="true">Результаты</button></form>
+        <form action="./pages/SourcePage/source.html"><button class="noselect" id="sourceButton" disabled="true">Источники</button></form>
+        <button id="reset_button" class="noselect" disabled="true">Доступен, если достигните 1 упражнение</button>
+        <div id="nameDiv">
+            <input type="text" placeholder="Фамилия (обязательно)" name="" id="subname">
+            <input type="text" placeholder="Имя (обязательно)" name="" id="name">
+            <button id="save">Сохранить</button>
+        </div>
         Сайт сделал Niik18: <a href="https://github.com/Niik188">Github</a>
     </div>
     <script src="./code.js"></script>

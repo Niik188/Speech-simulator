@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./exercise.css">
+    <link rel="stylesheet" href="../../main.css">
+    <title>Интерактивное пособие - Упражнение 1</title>
+</head>
+<body oncontextmenu="false;">
+    <div class="exercise">
+        <div class="name">
+            <h1 class="noselect">Упражнение 1: Распределите предложения по группам в зависимости от правильности написания сложного предложения</h1>
+            <button id="check" class="noselect">Проверить и продолжить</button>
+            <form action="../../index.html"><button id="backMain" class="noselect">Назад к основной странице</button></form>
+        </div>
+
+        <div class="table">
+            <div class="True1">
+                <h2 class="noselect">Правильно</h2>
+            </div>
+            <div class="False1">
+                <h2 class="noselect">Ошибочно</h2>
+            </div>
+        </div>
+
+        <div class="table">
+            <div class="True drop" ondragover="onDragOver(event);" ondrop="onDrop(event);">
+            </div>
+            <div class="False drop" ondragover="onDragOver(event);" ondrop="onDrop(event);">
+            </div>
+        </div>
+
+        <div id="offerDiv" class="drop" ondragover="onDragOver(event);" ondrop="onDrop(event);">
+            <h1 class="noselect offers" id="1" draggable="true" ondragstart="onDragStart(event);">1. Анализируя рассказы И.А. Бунина, понимаешь, что насколько талантлив писатель в выборе средств характеристики героев. </h1>
+            <h1 class="noselect offers" id="2" draggable="true" ondragstart="onDragStart(event);">2. Летом семья художника жила в деревне Егорьевского района Подмосковья, название которой не сохранилось. </h1>
+            <h1 class="noselect offers" id="3" draggable="true" ondragstart="onDragStart(event);">3. Многие люди проносят через всю жизнь дружбу, которая началась ещё в школе.</h1>
+            <h1 class="noselect offers" id="4" draggable="true" ondragstart="onDragStart(event);">4. Команда юных шахматистов школы была отмечена жюри, которая впервые принимала участие в городском турнире.</h1>
+            <h1 class="noselect offers" id="5" draggable="true" ondragstart="onDragStart(event);">5. Проект потребовалось доработать, чтобы он соответствовал нормам эксплуатации.</h1>
+            <h1 class="noselect offers" id="6" draggable="true" ondragstart="onDragStart(event);">6. Анализируя рассказы И.А. Бунина, понимаешь, насколько талантлив писатель в выборе средств характеристики героев. </h1>
+            <h1 class="noselect offers" id="7" draggable="true" ondragstart="onDragStart(event);">7. Летом семья художника жила в деревне Егорьевского района Подмосковья, название которого не сохранилось. </h1>
+            <h1 class="noselect offers" id="8" draggable="true" ondragstart="onDragStart(event);">8. Многие люди проносят дружбу через всю жизнь, которая началась ещё в школе.</h1>
+            <h1 class="noselect offers" id="9" draggable="true" ondragstart="onDragStart(event);">9. Команда юных шахматистов школы, которая впервые принимала участие в городском турнире, была отмечена жюри.</h1>
+            <h1 class="noselect offers" id="10" draggable="true" ondragstart="onDragStart(event);">10. Проект потребовалось доработать, чтобы он бы соответствовал нормам эксплуатации.</h1>
+        </div>
+    </div>
+    <script src="./exercise.js"></script>
+</body>
+</html>

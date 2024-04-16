@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./exercise.css">
+    <link rel="stylesheet" href="../../main.css">
+    <title>Интерактивное пособие - Упражнение 3</title>
+</head>
+<body>
+    <div class="exercise">
+        <div class="name">
+            <h1 class="noselect">Упражнение 3: Распределите предложения по группам в зависимости от правильности связи между подлежащим и сказуемым и правильности употребления числительного в предложении</h1>
+            <button id="check" class="noselect">Проверить и продолжить</button>
+            <form action="../../index.html"><button id="backMain" class="noselect">Назад к основной странице</button></form>
+        </div>
+        
+        <div class="table">
+            <div class="True1">
+                <h2 class="noselect">Правильно</h2>
+            </div>
+            <div class="False1">
+                <h2 class="noselect">Ошибочно</h2>
+            </div>
+        </div>
+
+        <div class="table">
+            <div class="True drop" ondragover="onDragOver(event);" ondrop="onDrop(event);">
+            </div>
+            <div class="False drop" ondragover="onDragOver(event);" ondrop="onDrop(event);">
+            </div>
+        </div>
+
+        <div id="offerDiv" class="drop" ondragover="onDragOver(event);" ondrop="onDrop(event);">
+            <h1 class="noselect offers" id="1" draggable="true" ondragstart="onDragStart(event);">1. Стая лебедей кружилась над озером, словно не желая покидать привычное место.               </h1>
+            <h1 class="noselect offers" id="2" draggable="true" ondragstart="onDragStart(event);">2. Группа людей, среди которых были представители разных поколений, собралась, чтобы участвовать в празднике. </h1>
+            <h1 class="noselect offers" id="3" draggable="true" ondragstart="onDragStart(event);">3. Четверо спортсменок городского шахматного клуба вышли в финал соревнований. </h1>
+            <h1 class="noselect offers" id="4" draggable="true" ondragstart="onDragStart(event);">4. Посетители зоопарка наблюдали за тремя львами, прохаживающимися по вольеру.</h1>
+            <h1 class="noselect offers" id="5" draggable="true" ondragstart="onDragStart(event);">5. Посёлок настолько мал, что его можно обойти за четверо часов.</h1>
+            <h1 class="noselect offers" id="6" draggable="true" ondragstart="onDragStart(event);">6. Посёлок настолько мал, что его можно обойти за четыре часа. </h1>
+            <h1 class="noselect offers" id="7" draggable="true" ondragstart="onDragStart(event);">7. Группа людей, среди которых были представители разных поколений, собрались, чтобы участвовать в празднике.  </h1>
+            <h1 class="noselect offers" id="8" draggable="true" ondragstart="onDragStart(event);">8. Стая лебедей кружились над озером, словно не желая покидать привычное место.              </h1>
+            <h1 class="noselect offers" id="9" draggable="true" ondragstart="onDragStart(event);">9. Четыре спортсменки городского шахматного клуба вышли в финал соревнований. </h1>
+            <h1 class="noselect offers" id="10" draggable="true" ondragstart="onDragStart(event);">10. Посетители зоопарка наблюдали за троими львами, прохаживающимися по вольеру.</h1>
+        </div>
+    </div>
+    <script src="./exercise.js"></script>
+</body>
+</html>

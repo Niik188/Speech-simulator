@@ -1,5 +1,5 @@
 body{
-    background-image: url("https://cdna.artstation.com/p/assets/images/images/004/982/586/large/valerie-do-ocean-2.jpg");
+    background-image: url("https://im-fond.ru/wp-content/uploads/2018/04/%D0%BC%D0%B5%D0%BD%D0%B7%D0%B5%D0%BB.jpg");
     background-size: cover;
     background-position-y:center;
     display: flex;
@@ -71,12 +71,21 @@ body{
 
 #wordsDiv h1{
     display: none;
+    font-size: 180%;
 }
 
 #wordsDiv input{
     margin-left: 35%;
 }
 
-#playSound{
+#playSound1{
+    margin: 2%;
+}
+
+#playSound2{
+    margin: 2%;
+}
+
+#playSound3{
     margin: 2%;
 }
