@@ -49,7 +49,7 @@ if ((sum >= 80 && sum <= 100) || sum > 100) {
 if (sum >= 60 && sum <= 79) {
     estimation.textContent = "4"
 }
-if (sum >= 40 && sum <= 89) {
+if (sum >= 40 && sum <= 59) {
     estimation.textContent = "3"
 }
 if (sum <= 39) {
