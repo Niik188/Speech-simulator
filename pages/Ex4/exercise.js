@@ -7,7 +7,7 @@ let right_answers = 0;
 
 checkButton.addEventListener('click',()=>{
     checkButton.disabled = true;
-    let rightOffer1 = [0,0,1,0,0,1,1,1]
+    let rightOffer1 = [0,0,1,0,0,1,1,0]
     for (let i = 0; i < rightOffer1.length; i++) {
         if (wordChecks[i].checked&&rightOffer1[i]==1||!wordChecks[i].checked&&rightOffer1[i]==0) {
             words[i].style.color = 'green'
